@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+    font-size: smaller;
+}
+h1{
+    color: blue;
+    background-color: aqua;
+}
+h2{
+    color:cyan ;
+    background-color: blue;
+}

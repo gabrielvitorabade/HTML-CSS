@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    text-indent: 1.8em;
+    background-image: linear-gradient(to bottom, green, lightgreen);
+}
+h1{
+    font:bold normal 2em Arial, helvetica, sans-serif;
+    color: rgb(2, 27, 2);
+}
+#tituloprincipal{
+    background-color: rgb(11, 63, 11);
+    color: lightgreen;
+    text-align: center;
+}
+h2{
+    background-color: rgba(31, 49, 12, 0.089);
+    font: normal 1.5em Arial;
+    color: rgb(2, 48, 2);
+}
+.intermediario{
+    text-align: center;
+}
+.avancado{
+    text-align: right;
+}
+p{
+    box-shadow: 0.1em 0.1em 0.3em rgb(12, 122, 12);
+    padding: 0.5em;
+}

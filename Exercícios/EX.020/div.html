@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes em divs</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+            background-color: yellow;
+            width: 10em;
+            height: 1em;
+            text-align: center;
+            padding: 3em;
+            border-radius: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Divs</h1>
+    <h2>Podemos esconder algo ou criar interações usando pseudo-classes em seletores personalizados.</h2>
+    <div>
+        Passe o mouse aqui!
+        <p>SURPRESAA!!</p>
+    </div>
+
+    <h2>VIU SÓ?</h2>
+    <p>É incrivel aprender a desenvolver sites.</p>
+    
+</body>
+</html>
